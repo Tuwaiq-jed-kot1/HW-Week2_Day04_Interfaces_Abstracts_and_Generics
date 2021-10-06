@@ -1,4 +1,4 @@
-# Kotlin Essentials (Data Structure /Scope Functions)
+# Kotlin Essentials (Interfaces / Abstract Classes / Generics)
 ---
 ## Learning Objectives ✨
 - How to create and deal with Interfaces, Abstract Classes, and Generics Kotlin language.
