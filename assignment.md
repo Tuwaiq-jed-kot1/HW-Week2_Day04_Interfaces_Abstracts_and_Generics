@@ -4,7 +4,7 @@ The Kotlin assignment has two components
 - Practice with Interfaces and Abstract Classes.
 - Practice with Generics.
 
-> Note: You must save your solution in `solution_part1.kt` for Part I, and `solution_part2.kt` for Part II.
+> Note: You must savdfdfdfe your solution in `solution_part1.kt` for Part I, and `solution_part2.kt` for Part II.
 
 ## Part I - Interfaces and Abstract Classes.
 ---
