@@ -1,17 +1,53 @@
-# Kotlin Essentials (Interfaces and Abstract Classes + Generics)
----
-The Kotlin assignment has two components
-- Practice with Interfaces and Abstract Classes.
-- Practice with Generics.
 
-> Note: You must save your solution in `solution_part1.kt` for Part I, and `solution_part2.kt` for Part II.
 
-## Part I - Interfaces and Abstract Classes.
----
-- Create an example of, a Class and an Interface, and allow to Implement the Interface methods and variables in the Class.
-- Create an example of, a Class and an Abstract Class, and Implement different methods, variables, and Abastract methods from the Abstract Class
+interface COUNTRY {
 
-## Part II - Generics.
----
-- Create a Generic Class example with different type variances
-- Create three Generic Classes examples, one with `Where`, one with `Out` keyword, and the third with `In` keyword
+    fun travel():String
+    fun work():String
+    fun study():String
+}
+
+
+
+abstract  class Island{
+abstract fun swim(name :String ):String
+fun Diving( name2:String){
+println(" the diving in $name2 is great ")}
+}
+
+
+
+
+
+class Asia ():Island() ,COUNTRY{
+
+    override fun travel(): String {
+        return "great country "
+    }
+
+     override fun work(): String {
+         return "great job "
+     }
+
+     override fun study(): String {
+         return "great study "
+     }
+
+
+       /////////////
+
+       override fun swim(name :String ): String {
+           return "the swim  in $name is good "
+       }
+}
+
+
+fun main (){
+val SaudiArabia = Asia()
+
+    println(SaudiArabia.work())
+    println(SaudiArabia.travel())
+    println(SaudiArabia.study())
+    println(SaudiArabia.Diving("Maldives"))
+    println(SaudiArabia.swim("bali"))
+
